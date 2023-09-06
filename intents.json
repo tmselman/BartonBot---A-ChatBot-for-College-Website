@@ -1,0 +1,360 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+         "what is the name of your developers",
+         "what is the name of your creators",
+         "what is the name of the developers",
+         "what is the name of the creators",
+         "who created you",
+         "your developers",
+         "your creators",
+         "who are your developers",
+         "developers",
+         "you are made by",
+         "you are made by whom",
+         "who created you",
+         "who create you",
+         "creators",
+         "who made you",
+         "who designed you"
+      ],
+      "responses": [
+         "College Students of IT Dept. 2019-23 Batch"
+      ]
+    },
+
+   {
+    "tag": "name",
+    "patterns": [
+       "name",
+       "your name",
+       "do you have a name",
+       "what are you called",
+       "what is your name",
+       "what should I call you",
+       "whats your name?",
+       "what are you",
+       "who are you",
+       "who is this",
+       "what am i chatting to",
+       "who am i taking to",
+       "what are you"
+    ],
+    "responses": [
+       "You can call me BartonBot.",
+       "I'm BartonBot",
+       "I am a Chatbot named BartonBot.",
+       "I am your helper BartonBot, who can get you some details of GECB"
+    ]
+    
+    },
+
+    {
+      "tag": "hours",
+      "patterns": [
+         "timing of college",
+         "what is college timing",
+         "working days",
+         "when are you guys open",
+         "what are your hours",
+         "hours of operation",
+         "when is the college open",
+         "college timing",
+         "what about college timing",
+         "is college open on saturday",
+         "tell something about college timing",
+         "what is the college  hours",
+         "when should i come to college",
+         "when should i attend college",
+         "what is my college time",
+         "college timing",
+         "timing college"
+      ],
+      "responses": [
+         "College is open 8am-5pm Monday-Saturday!"
+      ]
+      
+    },
+    
+    {
+  "tag": "number",
+  "patterns": [
+     "more info",
+     "contact info",
+     "how to contact college",
+     "college telephone number",
+     "college number",
+     "What is your contact no",
+     "Contact number?",
+     "how to call you",
+     "College phone no?",
+     "how can i contact you",
+     "Can i get your phone number",
+     "how can i call you",
+     "phone number",
+     "phone no",
+     "call"
+  ],
+  "responses": [
+     "You can contact at: NUMBER"
+  ]
+    },
+
+    {
+      "tag": "course",
+      "patterns": [
+         "list of courses",
+         "list of courses offered",
+         "list of courses offered in",
+         "what are the courses offered in your college?",
+         "courses?",
+         "courses offered",
+         "courses offered in (your univrsity(UNI) name)",
+         "courses you offer",
+         "branches?",
+         "courses available at UNI?",
+         "branches available at your college?",
+         "what are the courses in UNI?",
+         "what are branches in UNI?",
+         "what are courses in UNI?",
+         "branches available in UNI?",
+         "can you tell me the courses available in UNI?",
+         "can you tell me the branches available in UNI?"
+         
+      ],
+      "responses": [
+         "Our College offers B.Tech in Information Technology, Mechanical Engineering, Civil Engineering,Electric, Electronics and Communication Engineering, Electrical and Electronics Engineering and M.Tech "
+      ]
+    },
+
+    {
+      "tag": "location",
+      "patterns": [
+         "where is the college located",
+         "college is located at",
+         "where is college",
+         "where is college located",
+         "address of college",
+         "how to reach college",
+         "college location",
+         "college address",
+         "wheres the college",
+         "how can I reach college",
+         "whats is the college address",
+         "what is the address of college",
+         "address",
+         "location"
+      ],
+      "responses": [
+         "You can reach our College by clicking this link below; <a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      ]
+    },
+
+    
+    {
+    "tag": "hostel",
+    "patterns": [
+     "hostel facility",
+     "hostel servive",
+     "hostel location",
+     "hostel address",
+     "hostel facilities",
+     "hostel fees",
+     "Does college provide hostel",
+     "Is there any hostel",
+     "Where is hostel",
+     "do you have hostel",
+     "do you guys have hostel",
+     "hostel",
+     "hostel capacity",
+     "what is the hostel fee",
+     "how to get in hostel",
+     "what is the hostel address",
+     "how far is hostel from college",
+     "hostel college distance",
+     "where is the hostel",
+     "how big is the hostel",
+     "distance between college and hostel",
+     "distance between hostel and college"
+     ],
+    "responses": [
+     "The Hostel Facility is currently provided for Girls only. Two seperate Hostel building inside the campus within 100mts from the main Academic Block.For more hostel details visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+    ]
+    },
+
+  {
+      "tag": "salutaion",
+      "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+      ],
+      "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+      ]
+     },
+   {
+      "tag": "task",
+      "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ]
+    },
+    {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ]
+    },
+    {
+   "tag": "college",
+   "patterns": [
+      "what about your college",
+      "tell me about your college",
+      "decribe about GECB"
+       ],
+       "responses": [ "Government Engineering College, Barton Hill was established by the Government of Kerala in the academic year 1999-2000. Within a short span of time since inception, the college has achieved notable academic excellence. The college is affiliated to the University of Kerala for final year B.tech batch and APJ Abdul kalam Kerala Technological University for all other batches. It is under the administrative control of the Director of Technical Education, Government of Kerala.The college is situated at scenic hills of Barton Hill and the land was donated by His Highness Sri.Chithira Thirunal Balarama Varma, the last ruling Maharaja of the princely State of Travancore. The college started its functioning in the month of November 1999 on the buildings of the Barton Hill Girls High School, Kunnukuzhy which is now defunct. The first principal of the college was Prof. G. Jayasankar and Dr. Shiny G is the present principal of the college. "
+        ]
+    },
+
+    {
+      "tag": "random",
+      "patterns": [
+      
+      "Will you marry me",
+      "Do you love me"
+      ],
+      "responses": [
+      "I am not program for this, please ask appropriate query"
+       ]
+    },
+
+    {
+      "tag": "UG Dean",
+      "patterns": [
+      "UG dean",
+      "who is the ug dean",
+      "tell me about ug dean"
+      ],
+      "responses": [
+      "Dr. Shamna H. R . You can reach to The UG Dean via MOB: 9446422003 , E-mail : shamna.hr@gecbh.ac.in  "
+       ]
+    },
+
+
+    {
+      "tag": "PG Dean",
+      "patterns": [
+      "who is the pg dean",
+      "tell me about pg dean",
+      "pg dean"
+      ],
+      "responses": [
+      "Dr.Dinesh Gopinath."
+       ]
+    },
+
+    {
+      "tag": "principal",
+      "patterns": [
+         "what is the name of principal",
+         "whatv is the principal name",
+         "principal name",
+         "Who is college principal",
+         "Where is principal's office",
+         "principal",
+         "name of principal"
+      ],
+      "responses": [
+         "Dr. Shiny G . You can reach to our Principal via Phone : +91 471-2300484 ,E-mail : principal@gecbh.ac.in"
+      ]
+   },
+    {
+      "tag": "it department",
+      "patterns": ["is there it department", "it department", "it dept", "it", "describe it department", "tell me about it", "it" 
+   
+      ],
+      "responses": [
+        "The Department of Information Technology at Government Engineering College, Barton hill was established in the academic year 1999, offering a four year B.Tech. course in Information Technology. M.Tech. Course in Information Technology with specialization in Network Engineering commenced from the academic year 2011-2012. For more, You can visit http://it.gecbh.ac.in/ "
+      ]
+    },
+    
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
