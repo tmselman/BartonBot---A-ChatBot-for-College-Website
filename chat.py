@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "BartonBot"
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -51,7 +51,7 @@ def get_response(msg):
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
-        # sentence = "do you use credit cards?"
+        # sentence = "do you study in college?"
         sentence = input("You: ")
         if sentence == "quit":
             break
